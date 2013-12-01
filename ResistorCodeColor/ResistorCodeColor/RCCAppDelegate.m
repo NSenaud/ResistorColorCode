@@ -3,11 +3,12 @@
 //  ResistorCodeColor
 //
 //  Created by Nicolas Senaud on 2013/11/30.
-//  Copyright (c) 2013 Nicolas Senaud. All rights reserved.
+//  Copyright (c) 2013 Nicolas Senaud – MIT License (MIT)
 //
 
 #import "RCCAppDelegate.h"
 
+// Define the number associated to two first bands of color.
 #define BLACK  0
 #define BROWN  1
 #define RED    2
@@ -19,6 +20,7 @@
 #define GREY   8
 #define WHITE  9
 
+// Define the multiplier associated to the third band of color.
 #define BLACK_MULTIPLIER  1e0
 #define BROWN_MULTIPLIER  1e1
 #define RED_MULTIPLIER    1e2
@@ -39,6 +41,7 @@
 	{
 		NSLog(@"init");
 		
+		// We expect the first band of color value to begin.
 		currentState = 1;
 		[_resistorDisplay setStringValue:@"Type Color Code"];
 	}
@@ -53,26 +56,39 @@
 
 - (void)newEntry:(int)color withMultiplier:(int)multiplier
 {
-	switch (currentState) {
+	switch (currentState)
+	{
 		case 1:
+			// First band: we just set the digit value.
 			[_resistorDisplay setIntegerValue:color];
+			// We now expect the second band value.
 			currentState++;
+			// We update the state value to display we expect the second band.
 			[_state setIntegerValue:currentState];
 			break;
 			
 		case 2:
+			// Second band: we multiply by 10 the first digit and add the
+			// current band value.
 			[_resistorDisplay setIntegerValue:(10*[_resistorDisplay integerValue]+color)];
+			// We now expect the third band value.
 			currentState++;
+			// We update the state value to display we expect the third band.
 			[_state setIntegerValue:currentState];
 			break;
 			
 		case 3:
+			// Third band: we multiply by 10^x to finally get the resistor value.
 			[_resistorDisplay setIntegerValue:([_resistorDisplay integerValue]*multiplier)];
+			NSLog(@"Resistor value: %@ Ohms", [_resistorDisplay stringValue]);
+			// We now expect a new resistor first band value.
 			currentState = 1;
+			// We update the state value to display we expect first band.
 			[_state setIntegerValue:currentState];
 			break;
 			
 		default:
+			// Error
 			NSLog(@"Error: State Unknown");
 			[_resistorDisplay setStringValue:@"Error!"];
 			currentState = 4;
