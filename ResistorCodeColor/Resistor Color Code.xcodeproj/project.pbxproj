@@ -31,23 +31,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		34F1BC1E184A9E1C00C9D0FF /* ResistorCodeColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResistorCodeColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F1BC1E184A9E1C00C9D0FF /* Resistor Color Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Resistor Color Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34F1BC21184A9E1C00C9D0FF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		34F1BC24184A9E1C00C9D0FF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		34F1BC25184A9E1C00C9D0FF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		34F1BC26184A9E1C00C9D0FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		34F1BC29184A9E1C00C9D0FF /* ResistorCodeColor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResistorCodeColor-Info.plist"; sourceTree = "<group>"; };
+		34F1BC29184A9E1C00C9D0FF /* Resistor Color Code-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Resistor Color Code-Info.plist"; sourceTree = "<group>"; };
 		34F1BC2B184A9E1C00C9D0FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		34F1BC2D184A9E1C00C9D0FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		34F1BC2F184A9E1C00C9D0FF /* ResistorCodeColor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ResistorCodeColor-Prefix.pch"; sourceTree = "<group>"; };
+		34F1BC2F184A9E1C00C9D0FF /* Resistor Color Code-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Resistor Color Code-Prefix.pch"; sourceTree = "<group>"; };
 		34F1BC31184A9E1C00C9D0FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		34F1BC33184A9E1C00C9D0FF /* RCCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCCAppDelegate.h; sourceTree = "<group>"; };
 		34F1BC34184A9E1C00C9D0FF /* RCCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCCAppDelegate.m; sourceTree = "<group>"; };
 		34F1BC37184A9E1C00C9D0FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		34F1BC39184A9E1C00C9D0FF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		34F1BC3F184A9E1C00C9D0FF /* ResistorCodeColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResistorCodeColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F1BC3F184A9E1C00C9D0FF /* Resistor Color CodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Resistor Color CodeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34F1BC40184A9E1C00C9D0FF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		34F1BC47184A9E1C00C9D0FF /* ResistorCodeColorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResistorCodeColorTests-Info.plist"; sourceTree = "<group>"; };
+		34F1BC47184A9E1C00C9D0FF /* Resistor Color CodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Resistor Color CodeTests-Info.plist"; sourceTree = "<group>"; };
 		34F1BC49184A9E1C00C9D0FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		34F1BC4B184A9E1C00C9D0FF /* ResistorCodeColorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResistorCodeColorTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,8 +86,8 @@
 		34F1BC1F184A9E1C00C9D0FF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				34F1BC1E184A9E1C00C9D0FF /* ResistorCodeColor.app */,
-				34F1BC3F184A9E1C00C9D0FF /* ResistorCodeColorTests.xctest */,
+				34F1BC1E184A9E1C00C9D0FF /* Resistor Color Code.app */,
+				34F1BC3F184A9E1C00C9D0FF /* Resistor Color CodeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,10 +127,10 @@
 		34F1BC28184A9E1C00C9D0FF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				34F1BC29184A9E1C00C9D0FF /* ResistorCodeColor-Info.plist */,
+				34F1BC29184A9E1C00C9D0FF /* Resistor Color Code-Info.plist */,
 				34F1BC2A184A9E1C00C9D0FF /* InfoPlist.strings */,
 				34F1BC2D184A9E1C00C9D0FF /* main.m */,
-				34F1BC2F184A9E1C00C9D0FF /* ResistorCodeColor-Prefix.pch */,
+				34F1BC2F184A9E1C00C9D0FF /* Resistor Color Code-Prefix.pch */,
 				34F1BC30184A9E1C00C9D0FF /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -148,7 +148,7 @@
 		34F1BC46184A9E1C00C9D0FF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				34F1BC47184A9E1C00C9D0FF /* ResistorCodeColorTests-Info.plist */,
+				34F1BC47184A9E1C00C9D0FF /* Resistor Color CodeTests-Info.plist */,
 				34F1BC48184A9E1C00C9D0FF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -157,9 +157,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		34F1BC1D184A9E1C00C9D0FF /* ResistorCodeColor */ = {
+		34F1BC1D184A9E1C00C9D0FF /* Resistor Color Code */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 34F1BC4F184A9E1C00C9D0FF /* Build configuration list for PBXNativeTarget "ResistorCodeColor" */;
+			buildConfigurationList = 34F1BC4F184A9E1C00C9D0FF /* Build configuration list for PBXNativeTarget "Resistor Color Code" */;
 			buildPhases = (
 				34F1BC1A184A9E1C00C9D0FF /* Sources */,
 				34F1BC1B184A9E1C00C9D0FF /* Frameworks */,
@@ -169,14 +169,14 @@
 			);
 			dependencies = (
 			);
-			name = ResistorCodeColor;
+			name = "Resistor Color Code";
 			productName = ResistorCodeColor;
-			productReference = 34F1BC1E184A9E1C00C9D0FF /* ResistorCodeColor.app */;
+			productReference = 34F1BC1E184A9E1C00C9D0FF /* Resistor Color Code.app */;
 			productType = "com.apple.product-type.application";
 		};
-		34F1BC3E184A9E1C00C9D0FF /* ResistorCodeColorTests */ = {
+		34F1BC3E184A9E1C00C9D0FF /* Resistor Color CodeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 34F1BC52184A9E1C00C9D0FF /* Build configuration list for PBXNativeTarget "ResistorCodeColorTests" */;
+			buildConfigurationList = 34F1BC52184A9E1C00C9D0FF /* Build configuration list for PBXNativeTarget "Resistor Color CodeTests" */;
 			buildPhases = (
 				34F1BC3B184A9E1C00C9D0FF /* Sources */,
 				34F1BC3C184A9E1C00C9D0FF /* Frameworks */,
@@ -187,9 +187,9 @@
 			dependencies = (
 				34F1BC44184A9E1C00C9D0FF /* PBXTargetDependency */,
 			);
-			name = ResistorCodeColorTests;
+			name = "Resistor Color CodeTests";
 			productName = ResistorCodeColorTests;
-			productReference = 34F1BC3F184A9E1C00C9D0FF /* ResistorCodeColorTests.xctest */;
+			productReference = 34F1BC3F184A9E1C00C9D0FF /* Resistor Color CodeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 34F1BC19184A9E1C00C9D0FF /* Build configuration list for PBXProject "ResistorCodeColor" */;
+			buildConfigurationList = 34F1BC19184A9E1C00C9D0FF /* Build configuration list for PBXProject "Resistor Color Code" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,8 +220,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				34F1BC1D184A9E1C00C9D0FF /* ResistorCodeColor */,
-				34F1BC3E184A9E1C00C9D0FF /* ResistorCodeColorTests */,
+				34F1BC1D184A9E1C00C9D0FF /* Resistor Color Code */,
+				34F1BC3E184A9E1C00C9D0FF /* Resistor Color CodeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,7 +271,7 @@
 /* Begin PBXTargetDependency section */
 		34F1BC44184A9E1C00C9D0FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 34F1BC1D184A9E1C00C9D0FF /* ResistorCodeColor */;
+			target = 34F1BC1D184A9E1C00C9D0FF /* Resistor Color Code */;
 			targetProxy = 34F1BC43184A9E1C00C9D0FF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -386,9 +386,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ResistorCodeColor/ResistorCodeColor-Prefix.pch";
-				INFOPLIST_FILE = "ResistorCodeColor/ResistorCodeColor-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ResistorCodeColor/Resistor Color Code-Prefix.pch";
+				INFOPLIST_FILE = "ResistorCodeColor/Resistor Color Code-Info.plist";
+				PRODUCT_NAME = "Resistor Color Code";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -399,9 +399,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ResistorCodeColor/ResistorCodeColor-Prefix.pch";
-				INFOPLIST_FILE = "ResistorCodeColor/ResistorCodeColor-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ResistorCodeColor/Resistor Color Code-Prefix.pch";
+				INFOPLIST_FILE = "ResistorCodeColor/Resistor Color Code-Info.plist";
+				PRODUCT_NAME = "Resistor Color Code";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -421,8 +421,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ResistorCodeColorTests/ResistorCodeColorTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ResistorCodeColorTests/Resistor Color CodeTests-Info.plist";
+				PRODUCT_NAME = "Resistor Color CodeTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -439,8 +439,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ResistorCodeColor/ResistorCodeColor-Prefix.pch";
-				INFOPLIST_FILE = "ResistorCodeColorTests/ResistorCodeColorTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ResistorCodeColorTests/Resistor Color CodeTests-Info.plist";
+				PRODUCT_NAME = "Resistor Color CodeTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -449,7 +449,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		34F1BC19184A9E1C00C9D0FF /* Build configuration list for PBXProject "ResistorCodeColor" */ = {
+		34F1BC19184A9E1C00C9D0FF /* Build configuration list for PBXProject "Resistor Color Code" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				34F1BC4D184A9E1C00C9D0FF /* Debug */,
@@ -458,21 +458,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		34F1BC4F184A9E1C00C9D0FF /* Build configuration list for PBXNativeTarget "ResistorCodeColor" */ = {
+		34F1BC4F184A9E1C00C9D0FF /* Build configuration list for PBXNativeTarget "Resistor Color Code" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				34F1BC50184A9E1C00C9D0FF /* Debug */,
 				34F1BC51184A9E1C00C9D0FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		34F1BC52184A9E1C00C9D0FF /* Build configuration list for PBXNativeTarget "ResistorCodeColorTests" */ = {
+		34F1BC52184A9E1C00C9D0FF /* Build configuration list for PBXNativeTarget "Resistor Color CodeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				34F1BC53184A9E1C00C9D0FF /* Debug */,
 				34F1BC54184A9E1C00C9D0FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

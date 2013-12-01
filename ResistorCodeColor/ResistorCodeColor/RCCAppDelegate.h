@@ -33,6 +33,7 @@
 - (IBAction)violet:(id)sender;
 - (IBAction)grey:(id)sender;
 - (IBAction)white:(id)sender;
+- (IBAction)clear:(id)sender;
 
 // ... Which call that method with number and exposant in parameters.
 - (void)newEntry:(int)color withMultiplier:(int)multiplier;

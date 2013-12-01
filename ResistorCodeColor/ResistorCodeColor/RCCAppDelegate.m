@@ -137,4 +137,10 @@
 	[self newEntry:WHITE withMultiplier:WHITE_MULTIPLIER];
 }
 
+- (IBAction)clear:(id)sender {
+	currentState = 1;
+	[_state setIntegerValue:currentState];
+	[_resistorDisplay setStringValue:@"Clear"];
+}
+
 @end
