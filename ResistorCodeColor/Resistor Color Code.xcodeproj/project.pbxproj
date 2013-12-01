@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		349C4160184BACB2007BA732 /* Resistor Color Code.app in Resources */ = {isa = PBXBuildFile; fileRef = 34F1BC1E184A9E1C00C9D0FF /* Resistor Color Code.app */; };
 		34F1BC22184A9E1C00C9D0FF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F1BC21184A9E1C00C9D0FF /* Cocoa.framework */; };
 		34F1BC2C184A9E1C00C9D0FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34F1BC2A184A9E1C00C9D0FF /* InfoPlist.strings */; };
 		34F1BC2E184A9E1C00C9D0FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F1BC2D184A9E1C00C9D0FF /* main.m */; };
@@ -231,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				349C4160184BACB2007BA732 /* Resistor Color Code.app in Resources */,
 				34F1BC2C184A9E1C00C9D0FF /* InfoPlist.strings in Resources */,
 				34F1BC3A184A9E1C00C9D0FF /* Images.xcassets in Resources */,
 				34F1BC32184A9E1C00C9D0FF /* Credits.rtf in Resources */,
